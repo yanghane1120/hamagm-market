@@ -42,7 +42,7 @@ const marketProducts = [
     searchTerms: "sony wh ch720n wireless noise cancelling over ear headphones black comfortable",
     amazonUrl: "https://link.amazon/B0fOtnGwN",
     videoId: "twG6BkAoNN0",
-    videoTitle: "0% FS GIVEN: When Your Cat Trolls the Dogs with Pure Silence 🎧💀*"
+    videoTitle: "0% FS GIVEN: When Your Cat Trolls the Dogs with Pure Silence 🎧💀"
   },
   {
     id: "echo-spot",
@@ -296,7 +296,7 @@ const marketProducts = [
   },
   {
     id: "jolisu-reading-glasses-5pack",
-    category: "care",
+    category: "apparel",
     tag: "Vision Care",
     title: "JOLISU 5-Pack Men's 2.00 Blue Light Blocking Reading Glasses (Lightweight Metal Frame)",
     searchTerms: "jolisu 5 pack reading glasses men 2.00 blue light blocking readers lightweight thin metal frame computer reading",
@@ -346,7 +346,7 @@ const marketProducts = [
   },
   {
     id: "wilson-nba-drv-basketball",
-    category: "sports",
+    category: "home",
     tag: "Basketball",
     title: "WILSON NBA DRV Series Outdoor Basketball",
     searchTerms: "wilson nba drv series outdoor basketball durable grip rubber streetball official size",
@@ -364,7 +364,7 @@ const marketProducts = [
     videoId: "Hp3BHst2TnY",
     videoTitle: "His pencil snapped mid-drawing, then his cat did THIS… ✏️⚡"
   },
- {
+  {
     id: "womens-wool-scarf-checked",
     category: "apparel",
     tag: "Winter Fashion",
@@ -373,6 +373,26 @@ const marketProducts = [
     amazonUrl: "https://link.amazon/B0i0newiO",
     videoId: "WEOLqji7MrU",
     videoTitle: "Wait for what he brought her before she stepped into the snow… 😭"
+  },
+  {
+    id: "philips-shaver-2400",
+    category: "care",
+    tag: "Men's Grooming",
+    title: "Philips Norelco 2400 Series Electric Shaver (Wet & Dry / Pop-up Trimmer)",
+    searchTerms: "philips norelco 2400 series electric shaver cordless wet dry rechargeable mens grooming pop up trimmer x3001 90",
+    amazonUrl: "https://link.amazon/B07SIZZhc",
+    videoId: "XqU-1WfCs5k",
+    videoTitle: "She stared at him like a stranger… then THIS happened 🥺"
+  },
+  {
+    id: "catstages-tower-of-tracks",
+    category: "cat",
+    tag: "Cat Toys",
+    title: "Catstages Tower of Tracks Interactive Cat Toy (3 Tiers / 6 Spinning Balls)",
+    searchTerms: "catstages tower of tracks interactive cat toy 3 tiers 6 spinning balls chase swat hunting instinct indoor cats kittens",
+    amazonUrl: "https://link.amazon/B0bD6tyhv",
+    videoId: "cLiYgk0qVAY",
+    videoTitle: "Stranded on a desert island… but she only cared about THIS?! 😭🏝️"
   }
 ];
 
@@ -464,3 +484,8 @@ const authorBooks = [
     amazonUrl: "https://link.amazon/B00B19Hu5"
   }
 ];
+
+// 模組匯出支援（相容 Node.js / ES Module / 瀏覽器全域）
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { marketProducts, xiaobiNotebooks, authorBooks };
+}
