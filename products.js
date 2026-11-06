@@ -363,6 +363,16 @@ const marketProducts = [
     amazonUrl: "https://link.amazon/B04GnTBbY",
     videoId: "Hp3BHst2TnY",
     videoTitle: "His pencil snapped mid-drawing, then his cat did THIS… ✏️⚡"
+  },
+ {
+    id: "womens-wool-scarf-checked",
+    category: "apparel",
+    tag: "Winter Fashion",
+    title: "Women's Wool Checked Scarf (Large Soft Thick Shawl & Wrap with Gift Box)",
+    searchTerms: "womens wool scarf winter checked scarves large soft thick warm shawls wraps elegant gift box holiday gift",
+    amazonUrl: "https://link.amazon/B0i0newiO",
+    videoId: "WEOLqji7MrU",
+    videoTitle: "Wait for what he brought her before she stepped into the snow… 😭"
   }
 ];
 
