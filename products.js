@@ -1,6 +1,8 @@
 // products.js - HAMAGM 獨立資料庫
 
-// 1. 日常精選市集商品清單 (已新增 15.6吋 數位相框、Ninja 破壁調理機)
+// ==========================================
+// 1. 日常精選市集商品清單 (marketProducts)
+// ==========================================
 const marketProducts = [
   {
     id: "f75",
@@ -9,18 +11,8 @@ const marketProducts = [
     title: "AULA F75 Pro 75% Wireless Mechanical Keyboard",
     searchTerms: "aula f75 pro wireless mechanical gaming keyboard creamy switch thocky sound",
     amazonUrl: "https://link.amazon/B0ewgi8NJ",
-    videoId: "UD3FO4SysaE",
-    videoTitle: "Even my cat plays better with this keyboard..."
-  },
-  {
-    id: "gloves",
-    category: "winter",
-    tag: "Winter Gear",
-    title: "2 Pairs Women's Touch Screen Thermal Knit Winter Gloves",
-    searchTerms: "2 pairs winter gloves for women touch screen elastic thermal knit lining warm gloves",
-    amazonUrl: "https://link.amazon/B0bdUBXIo",
-    videoId: "6HE65tM37Wc",
-    videoTitle: "Cold Hands, Warm Hearts"
+    videoId: "weBkKhh-wEA",
+    videoTitle: "Even my cat plays better with this mechanical keyboard! ⚡🔥"
   },
   {
     id: "hair-mask",
@@ -30,7 +22,7 @@ const marketProducts = [
     searchTerms: "loreal paris sulfate free glossing lamination hair mask 5 minute rinse off treatment",
     amazonUrl: "https://link.amazon/B0eojpQ1t",
     videoId: "904BvVq7QlM",
-    videoTitle: "The Secret Lamination Glow"
+    videoTitle: "She was crying over her ruined hair… then her CAT did THIS?! 😱🐱"
   },
   {
     id: "petkit",
@@ -40,7 +32,7 @@ const marketProducts = [
     searchTerms: "petkit automatic cat feeder 2.4g wifi app control pet food dispenser triple fresh lock",
     amazonUrl: "https://link.amazon/B0fC3FIFz",
     videoId: "mMMl6ke_Jes",
-    videoTitle: "My Cat Opened A Free Buffet For Strays..."
+    videoTitle: "My Cat Opened A Free Buffet For Strays… Until I Did THIS! 😭🐱"
   },
   {
     id: "sony-ch720n",
@@ -50,7 +42,7 @@ const marketProducts = [
     searchTerms: "sony wh ch720n wireless noise cancelling over ear headphones black comfortable",
     amazonUrl: "https://link.amazon/B0fOtnGwN",
     videoId: "twG6BkAoNN0",
-    videoTitle: "Focus Mode: Noise Cancelling On"
+    videoTitle: "0% FS GIVEN: When Your Cat Trolls the Dogs with Pure Silence 🎧💀*"
   },
   {
     id: "echo-spot",
@@ -60,7 +52,7 @@ const marketProducts = [
     searchTerms: "amazon echo spot smart alarm clock nightstands offices kitchens designed for alexa",
     amazonUrl: "https://link.amazon/B0dCFtTYG",
     videoId: "XTRpvGpgI2Y",
-    videoTitle: "Waking Up The Smart Way"
+    videoTitle: "MY CAT BOUGHT 500 ALARM CLOCKS ON AMAZON... ⏰💀"
   },
   {
     id: "moving-bags",
@@ -70,7 +62,7 @@ const marketProducts = [
     searchTerms: "light gray moving bags 200lb heavy duty 6 pack storage bags extra large summitflare",
     amazonUrl: "https://link.amazon/B03lm3MEk",
     videoId: "WcmlxQ1OhfQ",
-    videoTitle: "Heavy Duty Moving & Storage Solution"
+    videoTitle: "HE PACKED HIS BAGS AND WALKED OUT IN THE SNOW... 🧳❄️"
   },
   {
     id: "heater",
@@ -80,17 +72,17 @@ const marketProducts = [
     searchTerms: "space heater winhl portable electric heaters indoor use 70 oscillation thermostat",
     amazonUrl: "https://link.amazon/B0ivEANQG",
     videoId: "I4AHXe0Hq3k",
-    videoTitle: "Cozy Warmth In Cold Winter"
+    videoTitle: "Cat Stole the Heater for Shivering Dog… Owner’s Reaction is PRICELESS! 😱❄️"
   },
   {
     id: "flosser",
     category: "care",
     tag: "Oral Hygiene",
-    title: "COSLUS C20 Cordless Portable Water Dental Flosser (300ML / Pink)",
+    title: "COSLUS C20 Cordless Portable indicators Water Dental Flosser (300ML / Pink)",
     searchTerms: "coslus ada accepted c20 water dental flosser pick professional set pink oral irrigator",
     amazonUrl: "https://link.amazon/B03kheoWk",
     videoId: "4llyR06ur0g",
-    videoTitle: "Clean & Fresh Daily Dental Routine"
+    videoTitle: "Tiny Cat Saves a GIANT Bear With a Water Flosser?! 😱🐾"
   },
   {
     id: "stickers",
@@ -100,7 +92,7 @@ const marketProducts = [
     searchTerms: "300 pcs halloween pumpkin stickers waterproof vinyl water bottle laptop stickers",
     amazonUrl: "https://link.amazon/B09494Vtp",
     videoId: "Dgd7WXq1Nxg",
-    videoTitle: "The Most Savage Revenge in Cat History..."
+    videoTitle: "The Most Savage Revenge in Cat History! (Instant Regret) 🐱⚡"
   },
   {
     id: "hersheys",
@@ -120,7 +112,7 @@ const marketProducts = [
     searchTerms: "bulk assorted party candy mix 5lb sweetside halloween",
     amazonUrl: "https://link.amazon/B0jlfLH63",
     videoId: "hLE1yC90Egk",
-    videoTitle: "Ultimate Sweet Treats Party Mix"
+    videoTitle: "From Outcast to the Ultimate Cat Boss in 10 Seconds 😱👑"
   },
   {
     id: "fountain",
@@ -130,7 +122,7 @@ const marketProducts = [
     searchTerms: "stainless steel cat water fountain pet oasis ultra silent",
     amazonUrl: "https://link.amazon/B0bpXw7EQ",
     videoId: "O2khHlRJL5s",
-    videoTitle: "Cat Mom Found THIS in the Middle of..."
+    videoTitle: "Cat Mom Found THIS in the Middle of Nowhere… 🏜️🥺"
   },
   {
     id: "frameo-15",
@@ -140,7 +132,7 @@ const marketProducts = [
     searchTerms: "bigasuo 64gb 15.6 inch frameo digital picture frame wifi large electronic photo frames fhd ips touch screen",
     amazonUrl: "https://link.amazon/B06ugWlej",
     videoId: "Q1bo5mLh84k",
-    videoTitle: "Memories on Display: Frameo WiFi Digital Frame"
+    videoTitle: "She watched her baby leave forever... then THIS happened 💔🥺"
   },
   {
     id: "ninja-blender",
@@ -151,10 +143,202 @@ const marketProducts = [
     amazonUrl: "https://link.amazon/B0dJjEt8Z",
     videoId: "DML7hc5Uo5o",
     videoTitle: "Crush Ice In Seconds: Ninja Auto-iQ Power"
+  },
+  {
+    id: "gritin-book-light",
+    category: "home",
+    tag: "Reading Light",
+    title: "Gritin 9 LED Rechargeable Clip On Book Light (80 Hrs Runtime)",
+    searchTerms: "gritin 9 led rechargeable book light reading in bed eye caring 3 color stepless dimming lightweight clip on",
+    amazonUrl: "https://link.amazon/B00aA9YjN",
+    videoId: "CjYn7HgQrbg",
+    videoTitle: "My Cat Brought Me THIS In Bed?! 🥺💡"
+  },
+  {
+    id: "petbusy-cat-toy",
+    category: "cat",
+    tag: "Cat Toys",
+    title: "PetBusy Soft Chew Kicker Cat Toy with Catnip & Silvervine",
+    searchTerms: "petbusy cat toys natural catnip silvervine soft chew kicker crinkle bell fish sound indoor cats kittens",
+    amazonUrl: "https://link.amazon/B06Lhb3RV",
+    videoId: "N3OIgIOwC_E",
+    videoTitle: "Interactive Catnip Kicker Fish Toy"
+  },
+  {
+    id: "aussie-miracle-hair",
+    category: "care",
+    tag: "Hair Treatment",
+    title: "Aussie Total Miracle Shampoo, Conditioner & 3-Min Deep Treatment Bundle",
+    searchTerms: "aussie total miracle shampoo conditioner 3 minute deep treatment apricot macadamia oil damaged hair bundle",
+    amazonUrl: "https://link.amazon/B03LPJYi3",
+    videoId: "A3RDqr8fYdQ",
+    videoTitle: "Miracle Hair Fix in 3 Minutes"
+  },
+  {
+    id: "bissell-cleanview",
+    category: "home",
+    tag: "Floor Care",
+    title: "Bissell CleanView Swivel Upright Vacuum (Triple Action Brush Roll / 3836)",
+    searchTerms: "bissell cleanview swivel upright vacuum triple action brush roll multi cyclonic suction 3836",
+    amazonUrl: "https://link.amazon/B02tG5lqh",
+    videoId: "oqTMz8-80nM",
+    videoTitle: "Effortless Cleaning: Bissell CleanView Swivel Power"
+  },
+  {
+    id: "spacex-starship",
+    category: "tech",
+    tag: "Space Collectibles",
+    title: "1:144 SpaceX Starship Model with Sturdy Bracket (13.43in)",
+    searchTerms: "1 144 spacex starship model rocket sturdy bracket durable plastic space enthusiasts gift collection",
+    amazonUrl: "https://link.amazon/B0imKdLHn",
+    videoId: "QXGeOfBkrDg",
+    videoTitle: "SpaceX Starship 1:144 Scale Desktop Model"
+  },
+  {
+    id: "stanley-quencher-30oz",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (30 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flowstate tumbler handle straw 30 oz cup holder compatible stainless steel rose quartz",
+    amazonUrl: "https://link.amazon/B08TWhkGb",
+    videoId: "31SNNPtm-Og",
+    videoTitle: "Stay Hydrated in Style: Stanley Quencher H2.0 30oz"
+  },
+  {
+    id: "umite-dutch-oven",
+    category: "home",
+    tag: "Kitchen & Dining",
+    title: "Umite Chef 5QT Enameled Cast Iron Dutch Oven with Lid & Potholders (Cream White)",
+    searchTerms: "enameled cast iron dutch oven umite chef 5qt heavy duty cookware bread baking braising roasting cream white",
+    amazonUrl: "https://link.amazon/B01LL1DOR",
+    videoId: "_E46WYDnwgQ",
+    videoTitle: "The Ultimate Sourdough & Stew Companion: Umite Chef 5QT"
+  },
+  {
+    id: "stanley-quencher-30oz-ash",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (30 oz / Ash)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 30 oz cup holder compatible stainless steel ash",
+    amazonUrl: "https://link.amazon/B05ln23HR",
+    videoId: "T6xCDCKXAio",
+    videoTitle: "Everyday Hydration: Stanley Quencher H2.0 30oz (Ash)"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz",
+    amazonUrl: "https://link.amazon/B04rN2f5B",
+    videoId: "sqmnr6m_ZaA",
+    videoTitle: "Hydration Upgrade: Stanley Quencher H2.0 40oz (Rose Quartz)"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz-alt",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz",
+    amazonUrl: "https://link.amazon/B05WuWGoi",
+    videoId: "JiCKSuh7jCE",
+    videoTitle: "Ultimate Hydration: Stanley Quencher H2.0 40oz (Rose Quartz 2.0)"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz-v3",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz",
+    amazonUrl: "https://link.amazon/B07wXHHx9",
+    videoId: "FNDsbmky52U",
+    videoTitle: "All-Day Hydration: Stanley Quencher H2.0 40oz (Rose Quartz 2.0)"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz-v4",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz",
+    amazonUrl: "https://link.amazon/B00wmIHE9",
+    videoId: "VbTL98rMSVY",
+    videoTitle: "Stay Cool All Day: Stanley Quencher H2.0 40oz (Rose Quartz 2.0)"
+  },
+  {
+    id: "young-washington",
+    category: "entertainment",
+    tag: "Historical Drama",
+    title: "Young Washington (Directed by Jon Erwin / Starring Kelsey Grammer & Mary-Louise Parker)",
+    searchTerms: "young washington movie jon erwin kelsey grammer mary louise parker william franklyn miller historical drama",
+    amazonUrl: "https://link.amazon/B0dJGdQkd",
+    videoId: "QHKzHzaBlPE",
+    videoTitle: "The real reason George Washington chopped down that cherry tree… 🐱🪓"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz-v5",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz travel cup bpa free",
+    amazonUrl: "https://link.amazon/B02uRVCB4",
+    videoId: "q0eutYTG-ng",
+    videoTitle: "An 18th-century surveyor, his pink cup, and a confession about his mom… Guess who? 😳"
+  },
+  {
+    id: "stanley-quencher-30oz-ash-v2",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (30 oz / Ash)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 30 oz cup holder compatible stainless steel ash travel cup bpa free",
+    amazonUrl: "https://link.amazon/B0b5ipRIY",
+    videoId: "eeFrYm8x1cU",
+    videoTitle: "Aesthetic Daily Hydration: Stanley Quencher H2.0 30oz (Ash)"
+  },
+  {
+    id: "jolisu-reading-glasses-5pack",
+    category: "care",
+    tag: "Vision Care",
+    title: "JOLISU 5-Pack Men's 2.00 Blue Light Blocking Reading Glasses (Lightweight Metal Frame)",
+    searchTerms: "jolisu 5 pack reading glasses men 2.00 blue light blocking readers lightweight thin metal frame computer reading",
+    amazonUrl: "https://link.amazon/B07y5SqCN",
+    videoId: "pUhCGpfgNcw",
+    videoTitle: "Work & Read in Comfort: JOLISU Blue Light Blocking Glasses 5-Pack"
+  },
+  {
+    id: "spacex-embroidered-hat",
+    category: "apparel",
+    tag: "Space Apparel",
+    title: "Embroidered SpaceX Baseball Hat for Men and Women (Black)",
+    searchTerms: "spacex hat embroidered baseball cap men women black adjustable space enthusiast gear",
+    amazonUrl: "https://link.amazon/B0f7IqMYv",
+    videoId: "QXGeOfBkrDg",
+    videoTitle: "Wear The Mission: SpaceX Embroidered Baseball Cap (Black)"
+  },
+  {
+    id: "washington-a-life",
+    category: "entertainment",
+    tag: "Pulitzer Winner",
+    title: "Washington: A Life (Pulitzer Prize Winner by Ron Chernow)",
+    searchTerms: "washington a life ron chernow pulitzer prize winner biography founding fathers george washington",
+    amazonUrl: "https://link.amazon/B08bTS5y0",
+    videoId: "mZ6zZq_6xzA",
+    videoTitle: "The Definitive Portrait: Washington: A Life (Pulitzer Prize Winner)"
+  },
+  {
+    id: "stanley-quencher-40oz-rosequartz-v6",
+    category: "home",
+    tag: "Drinkware",
+    title: "STANLEY Quencher H2.0 FlowState Tumbler with Handle (40 oz / Rose Quartz 2.0)",
+    searchTerms: "stanley quencher h2 0 flow state tumbler handle straw 40 oz cup holder compatible stainless steel rose quartz travel cup bpa free",
+    amazonUrl: "https://link.amazon/B04wyssOr",
+    videoId: "vzr575_5XJk",
+    videoTitle: "Day 100 of the Cat Apocalypse… What did he just find?! 😱"
   }
 ];
 
-// 2. 小比兔官方筆記本清單
+// ==========================================
+// 2. 小比兔官方筆記本清單 (xiaobiNotebooks)
+// ==========================================
 const xiaobiNotebooks = [
   {
     cover: "book_en.png",
@@ -200,7 +384,9 @@ const xiaobiNotebooks = [
   }
 ];
 
-// 3. 原創小說與哲學書籍清單
+// ==========================================
+// 3. 原創小說與哲學書籍清單 (authorBooks)
+// ==========================================
 const authorBooks = [
   {
     cover: "Smarter.jfif",
